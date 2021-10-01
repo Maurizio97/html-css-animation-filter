@@ -55,12 +55,18 @@
 }
 
 /*  esercizio 6 */
-.ex-6-img {
-    transition: all 1s;
-
-}
 
 .ex-6-img:hover {
     filter: grayscale(1);
+}
+
+/*  esercizio 7 */
+
+.ex-7-img {
+    transition: all 1s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(1);
 }
 

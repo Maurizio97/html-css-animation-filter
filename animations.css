@@ -70,3 +70,18 @@
     filter: grayscale(1) sepia(1);
 }
 
+/*  esercizio 7 */
+
+.ex-8-img {
+    transition: all 1s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+}
+
+.ex-8-img:hover {
+    border-radius: 25px;
+}
+
+

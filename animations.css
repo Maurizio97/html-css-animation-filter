@@ -176,3 +176,135 @@
 }
 
 /* esercizio 13 */
+
+
+/* .ex-13-button:hover div {
+     
+} */
+.ex-13-button:hover .ex-13-top-white {
+    animation-name: top-13;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: bottom-13;
+}
+
+.ex-13-top-white {
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes top-13 {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+    20% {
+        top: -10px;
+        left: 94%;
+    }
+    21% {
+        top: -10px;
+        left: 94%;
+        width: 20px;
+        height: 30px;
+    }
+    45% {
+        top: 53px;
+        left: 94%;
+    }
+    46% {
+        top: 53px;
+        left: 94%;
+        width: 60px;
+        height: 20px;
+    }
+    70% {
+        top: 53px;
+        left: -4%;
+    }
+    71% {
+        top: 53px;
+        left: -4%;
+        width: 20px;
+        height: 30px;
+    }
+    95% {
+        top: -10px;
+        left: -4%;
+    }
+    96% {
+        top: -10px;
+        left: -4%;
+        width: 60px;
+        height: 20px;
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-13-bottom-white {
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes bottom-13 {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    20% {
+        bottom: -10px;
+        right: 94%;
+    }
+    21% {
+        bottom: -10px;
+        right: 94%;
+        width: 20px;
+        height: 30px;
+    }
+    45% {
+        bottom: 50px;
+        right: 94%;
+        width: 20px;
+        height: 30px;
+    }
+    46% {
+        bottom: 50px;
+        right: 94%;
+        width: 60px;
+        height: 20px;
+    }
+    70% {
+        bottom: 50px;
+        right: -4%;
+        width: 60px;
+        height: 20px;
+    }
+    71% {
+        bottom: 50px;
+        right: -4%;
+        width: 20px;
+        height: 30px;
+    }
+    95% {
+        bottom: -10px;
+        right: -4%;
+        width: 20px;
+        height: 30px;
+    }
+    96% {
+        bottom: -10px;
+        right: -4%;
+        width: 60px;
+        height: 20px;
+    }
+
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}

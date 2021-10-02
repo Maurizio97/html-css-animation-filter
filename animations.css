@@ -132,7 +132,7 @@
     }
 }
 
-.ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white {
     animation-name: top-destra-12;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -153,7 +153,8 @@
         left: 10%;
     }
 }
-.ex-12-bottom-white {
+
+.ex-12-button:hover .ex-12-bottom-white {
     animation-name: top-sinistra-12;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -183,13 +184,6 @@
 } */
 .ex-13-button:hover .ex-13-top-white {
     animation-name: top-13;
-}
-
-.ex-13-button:hover .ex-13-bottom-white {
-    animation-name: bottom-13;
-}
-
-.ex-13-top-white {
     animation-duration: 2s;
     animation-timing-function: linear;
 }
@@ -246,7 +240,8 @@
     }
 }
 
-.ex-13-bottom-white {
+.ex-13-button:hover .ex-13-bottom-white {
+    animation-name: bottom-13;
     animation-duration: 2s;
     animation-timing-function: linear;
 }
